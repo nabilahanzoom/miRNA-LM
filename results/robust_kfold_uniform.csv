@@ -1,0 +1,7 @@
+split,model,feature,seed,fold,train_neg,neg,auc,aupr,n_test,exact_dropped
+kfold,mlp,ernierna_both,0,0,uniform,uniform,0.9088883183102574,0.9051832690560382,6084,364
+kfold,mlp,ernierna_both,0,0,uniform,degree,0.6663560363112784,0.6738478768554123,6084,364
+kfold,mlp,ernierna_both,0,0,uniform,exact,0.5618356329779894,0.633919050431464,5720,364
+kfold,mlp,rnafm_both,0,0,uniform,uniform,0.9144932807882284,0.9133481577345282,6084,364
+kfold,mlp,rnafm_both,0,0,uniform,degree,0.6783353779067631,0.6835647840062854,6084,364
+kfold,mlp,rnafm_both,0,0,uniform,exact,0.5933281458142146,0.6535897561943458,5720,364

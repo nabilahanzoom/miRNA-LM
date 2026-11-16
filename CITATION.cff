@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Do Pretrained RNA Language Models Go Beyond Sequence Similarity? A Popularity-Aware and Prospective Evaluation for Cold-Start miRNA–Disease Association Prediction"
+authors:
+  - family-names: "<Last name>"
+    given-names: "<First name>"
+    affiliation: "BUBT Research Graduate School, Bangladesh University of Business and Technology"
+date-released: 2026-11-11
+repository-code: "https://github.com/<user>/mirna-lm-coldstart"
+license: MIT

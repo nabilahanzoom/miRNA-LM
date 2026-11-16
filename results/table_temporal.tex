@@ -1,0 +1,31 @@
+\begin{table}[t]\centering\small
+\caption{Temporal validation, test set of emerging miRNAs (miRNAs whose first disease association appears after the training cut-off). AUROC, mean $\pm$ s.d. over seeds. Within-v3.0: cut-off mid-2014, 222 miRNAs. Prospective: trained on HMDD v3.0, tested on 443 miRNAs new in HMDD v4.0.}\label{tab:temporal}
+\resizebox{\linewidth}{!}{\begin{tabular}{llcccc}\toprule
+ & & \multicolumn{2}{c}{Within HMDD v3.0} & \multicolumn{2}{c}{Prospective v3.0$\rightarrow$v4.0}\\\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Model & Representation & uniform neg. & pop.-matched neg. & uniform neg. & pop.-matched neg.\\\midrule
+MLP (debiased) & ERNIE-RNA & 0.709 $\pm$ 0.014 & 0.428 $\pm$ 0.014 & 0.764 $\pm$ 0.014 & 0.580 $\pm$ 0.009\\
+ & RNA-FM & 0.708 $\pm$ 0.015 & 0.436 $\pm$ 0.014 & 0.739 $\pm$ 0.015 & 0.564 $\pm$ 0.016\\
+ & RiNALMo-giga & 0.716 $\pm$ 0.013 & 0.440 $\pm$ 0.017 & 0.773 $\pm$ 0.013 & 0.568 $\pm$ 0.011\\
+ & SW alignment & 0.709 $\pm$ 0.014 & 0.438 $\pm$ 0.020 & 0.717 $\pm$ 0.013 & 0.552 $\pm$ 0.009\\
+ & $k$-mer & 0.704 $\pm$ 0.012 & 0.431 $\pm$ 0.015 & 0.748 $\pm$ 0.011 & 0.559 $\pm$ 0.010\\
+ & ERNIE-RNA + align & 0.700 $\pm$ 0.012 & 0.425 $\pm$ 0.018 & 0.711 $\pm$ 0.019 & 0.553 $\pm$ 0.011\\
+ & Random features & 0.716 $\pm$ 0.013 & 0.444 $\pm$ 0.024 & 0.761 $\pm$ 0.008 & 0.572 $\pm$ 0.008\\
+\midrule
+MLP (standard) & ERNIE-RNA & 0.761 $\pm$ 0.012 & 0.457 $\pm$ 0.008 & 0.845 $\pm$ 0.006 & 0.618 $\pm$ 0.009\\
+ & RNA-FM & 0.755 $\pm$ 0.015 & 0.461 $\pm$ 0.012 & 0.834 $\pm$ 0.005 & 0.611 $\pm$ 0.005\\
+ & RiNALMo-giga & 0.758 $\pm$ 0.015 & 0.456 $\pm$ 0.011 & 0.841 $\pm$ 0.008 & 0.607 $\pm$ 0.005\\
+ & SW alignment & 0.742 $\pm$ 0.018 & 0.465 $\pm$ 0.011 & 0.831 $\pm$ 0.009 & 0.606 $\pm$ 0.008\\
+ & $k$-mer & 0.745 $\pm$ 0.008 & 0.454 $\pm$ 0.008 & 0.833 $\pm$ 0.008 & 0.605 $\pm$ 0.009\\
+ & ERNIE-RNA + align & 0.752 $\pm$ 0.020 & 0.464 $\pm$ 0.008 & 0.838 $\pm$ 0.008 & 0.612 $\pm$ 0.008\\
+ & Random features & 0.751 $\pm$ 0.010 & 0.451 $\pm$ 0.012 & 0.829 $\pm$ 0.007 & 0.603 $\pm$ 0.009\\
+\midrule
+IMC & ERNIE-RNA & 0.528 $\pm$ 0.011 & 0.481 $\pm$ 0.014 & 0.606 $\pm$ 0.006 & 0.546 $\pm$ 0.007\\
+ & RNA-FM & 0.566 $\pm$ 0.002 & 0.480 $\pm$ 0.024 & 0.589 $\pm$ 0.004 & 0.540 $\pm$ 0.005\\
+ & RiNALMo-giga & 0.584 $\pm$ 0.009 & 0.488 $\pm$ 0.021 & 0.624 $\pm$ 0.003 & 0.548 $\pm$ 0.007\\
+ & SW alignment & 0.587 $\pm$ 0.004 & 0.506 $\pm$ 0.012 & 0.616 $\pm$ 0.004 & 0.542 $\pm$ 0.006\\
+ & $k$-mer & 0.589 $\pm$ 0.004 & 0.488 $\pm$ 0.018 & 0.661 $\pm$ 0.004 & 0.550 $\pm$ 0.004\\
+ & ERNIE-RNA + align & 0.535 $\pm$ 0.007 & 0.502 $\pm$ 0.015 & 0.587 $\pm$ 0.004 & 0.534 $\pm$ 0.007\\
+ & Random features & 0.590 $\pm$ 0.009 & 0.490 $\pm$ 0.021 & 0.631 $\pm$ 0.012 & 0.546 $\pm$ 0.008\\
+\midrule
+-- & Popularity only & 0.774 $\pm$ 0.008 & 0.462 $\pm$ 0.019 & 0.869 $\pm$ 0.005 & 0.612 $\pm$ 0.007\\
+\bottomrule\end{tabular}}\end{table}

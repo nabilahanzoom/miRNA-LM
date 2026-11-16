@@ -1,0 +1,139 @@
+split,model,neg,feature,auc,sd,n,dropped
+kfold,MLP (debiased),degree,align,0.672615,0.016411,15,0.0
+kfold,MLP (debiased),degree,ernierna_both,0.675002,0.013397,15,0.0
+kfold,MLP (debiased),degree,kmer,0.65236,0.013015,15,0.0
+kfold,MLP (debiased),degree,random,0.585143,0.00737,15,0.0
+kfold,MLP (debiased),degree,rinalmo_both,0.664241,0.011279,15,0.0
+kfold,MLP (debiased),degree,rnafm_both,0.669984,0.012382,15,0.0
+kfold,MLP (debiased),exact,align,0.618645,0.012695,15,320.133333
+kfold,MLP (debiased),exact,ernierna_both,0.615625,0.014591,15,320.133333
+kfold,MLP (debiased),exact,kmer,0.585729,0.011361,15,320.133333
+kfold,MLP (debiased),exact,random,0.517928,0.007612,15,320.133333
+kfold,MLP (debiased),exact,rinalmo_both,0.601687,0.013912,15,320.133333
+kfold,MLP (debiased),exact,rnafm_both,0.610611,0.011375,15,320.133333
+kfold,MLP (debiased),uniform,align,0.839185,0.011383,15,0.0
+kfold,MLP (debiased),uniform,ernierna_both,0.862515,0.010495,15,0.0
+kfold,MLP (debiased),uniform,kmer,0.825539,0.011272,15,0.0
+kfold,MLP (debiased),uniform,random,0.734838,0.020352,15,0.0
+kfold,MLP (debiased),uniform,rinalmo_both,0.843532,0.010008,15,0.0
+kfold,MLP (debiased),uniform,rnafm_both,0.855297,0.011291,15,0.0
+kfold,IMC,degree,align,0.656914,0.016186,15,0.0
+kfold,IMC,degree,ernierna_both,0.673045,0.013665,15,0.0
+kfold,IMC,degree,kmer,0.652737,0.012857,15,0.0
+kfold,IMC,degree,random,0.552802,0.013317,15,0.0
+kfold,IMC,degree,rinalmo_both,0.664815,0.011548,15,0.0
+kfold,IMC,degree,rnafm_both,0.665194,0.009305,15,0.0
+kfold,IMC,exact,align,0.610624,0.013656,15,320.133333
+kfold,IMC,exact,ernierna_both,0.614947,0.016129,15,320.133333
+kfold,IMC,exact,kmer,0.586963,0.010171,15,320.133333
+kfold,IMC,exact,random,0.513145,0.015485,15,320.133333
+kfold,IMC,exact,rinalmo_both,0.60315,0.012476,15,320.133333
+kfold,IMC,exact,rnafm_both,0.604168,0.010534,15,320.133333
+kfold,IMC,uniform,align,0.750872,0.021372,15,0.0
+kfold,IMC,uniform,ernierna_both,0.802125,0.019704,15,0.0
+kfold,IMC,uniform,kmer,0.764748,0.018562,15,0.0
+kfold,IMC,uniform,random,0.598084,0.02632,15,0.0
+kfold,IMC,uniform,rinalmo_both,0.791698,0.019235,15,0.0
+kfold,IMC,uniform,rnafm_both,0.799533,0.015105,15,0.0
+kfold,none,uniform,popularity,0.856126,0.00997,15,0.0
+kfold,none,degree,popularity,0.671512,0.008035,15,0.0
+kfold,none,exact,popularity,0.536657,0.008245,15,0.0
+homology70,MLP (debiased),degree,align,0.611707,0.013022,15,0.0
+homology70,MLP (debiased),degree,ernierna_both,0.628123,0.011028,15,0.0
+homology70,MLP (debiased),degree,random,0.580503,0.013282,15,0.0
+homology70,MLP (debiased),degree,rnafm_both,0.626419,0.012771,15,0.0
+homology70,MLP (debiased),exact,align,0.551856,0.013931,15,352.2
+homology70,MLP (debiased),exact,ernierna_both,0.561198,0.016501,15,352.2
+homology70,MLP (debiased),exact,random,0.514266,0.013027,15,352.2
+homology70,MLP (debiased),exact,rnafm_both,0.560339,0.017794,15,352.2
+homology70,MLP (debiased),uniform,align,0.793306,0.012852,15,0.0
+homology70,MLP (debiased),uniform,ernierna_both,0.841345,0.015728,15,0.0
+homology70,MLP (debiased),uniform,random,0.732454,0.022462,15,0.0
+homology70,MLP (debiased),uniform,rnafm_both,0.834617,0.013613,15,0.0
+homology70,IMC,degree,align,0.57576,0.007735,15,0.0
+homology70,IMC,degree,ernierna_both,0.623954,0.016501,15,0.0
+homology70,IMC,degree,kmer,0.608152,0.009364,15,0.0
+homology70,IMC,degree,random,0.550195,0.009775,15,0.0
+homology70,IMC,degree,rinalmo_both,0.623577,0.009827,15,0.0
+homology70,IMC,degree,rnafm_both,0.623128,0.009603,15,0.0
+homology70,IMC,exact,align,0.533458,0.009879,15,352.2
+homology70,IMC,exact,ernierna_both,0.561925,0.017138,15,352.2
+homology70,IMC,exact,kmer,0.543114,0.013262,15,352.2
+homology70,IMC,exact,random,0.51117,0.007537,15,352.2
+homology70,IMC,exact,rinalmo_both,0.55696,0.016435,15,352.2
+homology70,IMC,exact,rnafm_both,0.557263,0.015554,15,352.2
+homology70,IMC,uniform,align,0.649524,0.022217,15,0.0
+homology70,IMC,uniform,ernierna_both,0.759894,0.033051,15,0.0
+homology70,IMC,uniform,kmer,0.711863,0.022917,15,0.0
+homology70,IMC,uniform,random,0.597629,0.028203,15,0.0
+homology70,IMC,uniform,rinalmo_both,0.757275,0.018966,15,0.0
+homology70,IMC,uniform,rnafm_both,0.764823,0.024853,15,0.0
+homology70,none,uniform,popularity,0.848683,0.009617,15,0.0
+homology70,none,degree,popularity,0.664971,0.011148,15,0.0
+homology70,none,exact,popularity,0.537161,0.017412,15,0.0
+name_family,MLP (debiased),degree,align,0.627991,0.015348,15,0.0
+name_family,MLP (debiased),degree,ernierna_both,0.643533,0.011899,15,0.0
+name_family,MLP (debiased),degree,random,0.586221,0.01032,15,0.0
+name_family,MLP (debiased),degree,rnafm_both,0.638921,0.012439,15,0.0
+name_family,MLP (debiased),exact,align,0.567716,0.013719,15,331.6
+name_family,MLP (debiased),exact,ernierna_both,0.578043,0.01176,15,331.6
+name_family,MLP (debiased),exact,random,0.515659,0.010336,15,331.6
+name_family,MLP (debiased),exact,rnafm_both,0.572716,0.010874,15,331.6
+name_family,MLP (debiased),uniform,align,0.806964,0.015682,15,0.0
+name_family,MLP (debiased),uniform,ernierna_both,0.850236,0.009729,15,0.0
+name_family,MLP (debiased),uniform,random,0.729831,0.016217,15,0.0
+name_family,MLP (debiased),uniform,rnafm_both,0.842105,0.011657,15,0.0
+name_family,IMC,degree,align,0.601689,0.016946,15,0.0
+name_family,IMC,degree,ernierna_both,0.637445,0.01059,15,0.0
+name_family,IMC,degree,kmer,0.617841,0.011027,15,0.0
+name_family,IMC,degree,random,0.554081,0.01104,15,0.0
+name_family,IMC,degree,rinalmo_both,0.631802,0.010381,15,0.0
+name_family,IMC,degree,rnafm_both,0.632856,0.012433,15,0.0
+name_family,IMC,exact,align,0.551668,0.011566,15,331.6
+name_family,IMC,exact,ernierna_both,0.572786,0.01047,15,331.6
+name_family,IMC,exact,kmer,0.551793,0.010761,15,331.6
+name_family,IMC,exact,random,0.514308,0.010551,15,331.6
+name_family,IMC,exact,rinalmo_both,0.567265,0.010868,15,331.6
+name_family,IMC,exact,rnafm_both,0.566871,0.010238,15,331.6
+name_family,IMC,uniform,align,0.682585,0.029976,15,0.0
+name_family,IMC,uniform,ernierna_both,0.772607,0.015266,15,0.0
+name_family,IMC,uniform,kmer,0.720355,0.021997,15,0.0
+name_family,IMC,uniform,random,0.596173,0.017686,15,0.0
+name_family,IMC,uniform,rinalmo_both,0.760066,0.01834,15,0.0
+name_family,IMC,uniform,rnafm_both,0.773701,0.015691,15,0.0
+name_family,none,uniform,popularity,0.849858,0.007273,15,0.0
+name_family,none,degree,popularity,0.669692,0.008718,15,0.0
+name_family,none,exact,popularity,0.537127,0.008381,15,0.0
+seed_family,MLP (debiased),degree,align,0.659347,0.009967,15,0.0
+seed_family,MLP (debiased),degree,ernierna_both,0.666162,0.011488,15,0.0
+seed_family,MLP (debiased),degree,random,0.581964,0.007619,15,0.0
+seed_family,MLP (debiased),degree,rnafm_both,0.660386,0.013081,15,0.0
+seed_family,MLP (debiased),exact,align,0.6052,0.014264,15,324.666667
+seed_family,MLP (debiased),exact,ernierna_both,0.60548,0.011732,15,324.666667
+seed_family,MLP (debiased),exact,random,0.512665,0.009041,15,324.666667
+seed_family,MLP (debiased),exact,rnafm_both,0.597493,0.012794,15,324.666667
+seed_family,MLP (debiased),uniform,align,0.825601,0.013808,15,0.0
+seed_family,MLP (debiased),uniform,ernierna_both,0.857179,0.006576,15,0.0
+seed_family,MLP (debiased),uniform,random,0.728567,0.018814,15,0.0
+seed_family,MLP (debiased),uniform,rnafm_both,0.8502,0.012449,15,0.0
+seed_family,IMC,degree,align,0.640926,0.012398,15,0.0
+seed_family,IMC,degree,ernierna_both,0.661693,0.010565,15,0.0
+seed_family,IMC,degree,kmer,0.637891,0.012088,15,0.0
+seed_family,IMC,degree,random,0.545627,0.009763,15,0.0
+seed_family,IMC,degree,rinalmo_both,0.655181,0.012052,15,0.0
+seed_family,IMC,degree,rnafm_both,0.654469,0.01161,15,0.0
+seed_family,IMC,exact,align,0.59589,0.013038,15,324.666667
+seed_family,IMC,exact,ernierna_both,0.599917,0.011337,15,324.666667
+seed_family,IMC,exact,kmer,0.571085,0.012633,15,324.666667
+seed_family,IMC,exact,random,0.506732,0.011236,15,324.666667
+seed_family,IMC,exact,rinalmo_both,0.59176,0.011588,15,324.666667
+seed_family,IMC,exact,rnafm_both,0.591638,0.014296,15,324.666667
+seed_family,IMC,uniform,align,0.72363,0.015719,15,0.0
+seed_family,IMC,uniform,ernierna_both,0.789468,0.013685,15,0.0
+seed_family,IMC,uniform,kmer,0.739594,0.018837,15,0.0
+seed_family,IMC,uniform,random,0.590885,0.025119,15,0.0
+seed_family,IMC,uniform,rinalmo_both,0.779711,0.015694,15,0.0
+seed_family,IMC,uniform,rnafm_both,0.786879,0.01614,15,0.0
+seed_family,none,uniform,popularity,0.855543,0.008657,15,0.0
+seed_family,none,degree,popularity,0.671496,0.00913,15,0.0
+seed_family,none,exact,popularity,0.535836,0.011273,15,0.0

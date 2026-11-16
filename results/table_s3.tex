@@ -1,0 +1,54 @@
+\begin{longtable}{lllccc}
+\caption{Cold-miRNA AUROC (mean $\pm$ s.d., 3 seeds $\times$ 5 folds) for every partitioning scheme, predictor and test-negative protocol. MLP: popularity-debiased training; IMC: uniform training negatives.}\label{tab:s3}\\
+\toprule Split & Model & Representation & Uniform & Pop.-matched & Exact\\\midrule\endhead
+Random folds & MLP & ERNIE-RNA & 0.863 $\pm$ 0.010 & 0.675 $\pm$ 0.013 & 0.616 $\pm$ 0.015\\
+Random folds & MLP & RNA-FM & 0.855 $\pm$ 0.011 & 0.670 $\pm$ 0.012 & 0.611 $\pm$ 0.011\\
+Random folds & MLP & RiNALMo-giga & 0.844 $\pm$ 0.010 & 0.664 $\pm$ 0.011 & 0.602 $\pm$ 0.014\\
+Random folds & MLP & Alignment & 0.839 $\pm$ 0.011 & 0.673 $\pm$ 0.016 & 0.619 $\pm$ 0.013\\
+Random folds & MLP & $k$-mer & 0.826 $\pm$ 0.011 & 0.652 $\pm$ 0.013 & 0.586 $\pm$ 0.011\\
+Random folds & MLP & Random & 0.735 $\pm$ 0.020 & 0.585 $\pm$ 0.007 & 0.518 $\pm$ 0.008\\
+Random folds & IMC & ERNIE-RNA & 0.802 $\pm$ 0.020 & 0.673 $\pm$ 0.014 & 0.615 $\pm$ 0.016\\
+Random folds & IMC & RNA-FM & 0.800 $\pm$ 0.015 & 0.665 $\pm$ 0.009 & 0.604 $\pm$ 0.011\\
+Random folds & IMC & RiNALMo-giga & 0.792 $\pm$ 0.019 & 0.665 $\pm$ 0.012 & 0.603 $\pm$ 0.012\\
+Random folds & IMC & Alignment & 0.751 $\pm$ 0.021 & 0.657 $\pm$ 0.016 & 0.611 $\pm$ 0.014\\
+Random folds & IMC & $k$-mer & 0.765 $\pm$ 0.019 & 0.653 $\pm$ 0.013 & 0.587 $\pm$ 0.010\\
+Random folds & IMC & Random & 0.598 $\pm$ 0.026 & 0.553 $\pm$ 0.013 & 0.513 $\pm$ 0.015\\
+Random folds & -- & Popularity & 0.856 $\pm$ 0.010 & 0.672 $\pm$ 0.008 & 0.537 $\pm$ 0.008\\
+\midrule
+Seed families & MLP & ERNIE-RNA & 0.857 $\pm$ 0.007 & 0.666 $\pm$ 0.011 & 0.605 $\pm$ 0.012\\
+Seed families & MLP & RNA-FM & 0.850 $\pm$ 0.012 & 0.660 $\pm$ 0.013 & 0.597 $\pm$ 0.013\\
+Seed families & MLP & Alignment & 0.826 $\pm$ 0.014 & 0.659 $\pm$ 0.010 & 0.605 $\pm$ 0.014\\
+Seed families & MLP & Random & 0.729 $\pm$ 0.019 & 0.582 $\pm$ 0.008 & 0.513 $\pm$ 0.009\\
+Seed families & IMC & ERNIE-RNA & 0.789 $\pm$ 0.014 & 0.662 $\pm$ 0.011 & 0.600 $\pm$ 0.011\\
+Seed families & IMC & RNA-FM & 0.787 $\pm$ 0.016 & 0.654 $\pm$ 0.012 & 0.592 $\pm$ 0.014\\
+Seed families & IMC & RiNALMo-giga & 0.780 $\pm$ 0.016 & 0.655 $\pm$ 0.012 & 0.592 $\pm$ 0.012\\
+Seed families & IMC & Alignment & 0.724 $\pm$ 0.016 & 0.641 $\pm$ 0.012 & 0.596 $\pm$ 0.013\\
+Seed families & IMC & $k$-mer & 0.740 $\pm$ 0.019 & 0.638 $\pm$ 0.012 & 0.571 $\pm$ 0.013\\
+Seed families & IMC & Random & 0.591 $\pm$ 0.025 & 0.546 $\pm$ 0.010 & 0.507 $\pm$ 0.011\\
+Seed families & -- & Popularity & 0.856 $\pm$ 0.009 & 0.671 $\pm$ 0.009 & 0.536 $\pm$ 0.011\\
+\midrule
+Name families & MLP & ERNIE-RNA & 0.850 $\pm$ 0.010 & 0.644 $\pm$ 0.012 & 0.578 $\pm$ 0.012\\
+Name families & MLP & RNA-FM & 0.842 $\pm$ 0.012 & 0.639 $\pm$ 0.012 & 0.573 $\pm$ 0.011\\
+Name families & MLP & Alignment & 0.807 $\pm$ 0.016 & 0.628 $\pm$ 0.015 & 0.568 $\pm$ 0.014\\
+Name families & MLP & Random & 0.730 $\pm$ 0.016 & 0.586 $\pm$ 0.010 & 0.516 $\pm$ 0.010\\
+Name families & IMC & ERNIE-RNA & 0.773 $\pm$ 0.015 & 0.637 $\pm$ 0.011 & 0.573 $\pm$ 0.010\\
+Name families & IMC & RNA-FM & 0.774 $\pm$ 0.016 & 0.633 $\pm$ 0.012 & 0.567 $\pm$ 0.010\\
+Name families & IMC & RiNALMo-giga & 0.760 $\pm$ 0.018 & 0.632 $\pm$ 0.010 & 0.567 $\pm$ 0.011\\
+Name families & IMC & Alignment & 0.683 $\pm$ 0.030 & 0.602 $\pm$ 0.017 & 0.552 $\pm$ 0.012\\
+Name families & IMC & $k$-mer & 0.720 $\pm$ 0.022 & 0.618 $\pm$ 0.011 & 0.552 $\pm$ 0.011\\
+Name families & IMC & Random & 0.596 $\pm$ 0.018 & 0.554 $\pm$ 0.011 & 0.514 $\pm$ 0.011\\
+Name families & -- & Popularity & 0.850 $\pm$ 0.007 & 0.670 $\pm$ 0.009 & 0.537 $\pm$ 0.008\\
+\midrule
+Homology clusters & MLP & ERNIE-RNA & 0.841 $\pm$ 0.016 & 0.628 $\pm$ 0.011 & 0.561 $\pm$ 0.017\\
+Homology clusters & MLP & RNA-FM & 0.835 $\pm$ 0.014 & 0.626 $\pm$ 0.013 & 0.560 $\pm$ 0.018\\
+Homology clusters & MLP & Alignment & 0.793 $\pm$ 0.013 & 0.612 $\pm$ 0.013 & 0.552 $\pm$ 0.014\\
+Homology clusters & MLP & Random & 0.732 $\pm$ 0.022 & 0.581 $\pm$ 0.013 & 0.514 $\pm$ 0.013\\
+Homology clusters & IMC & ERNIE-RNA & 0.760 $\pm$ 0.033 & 0.624 $\pm$ 0.017 & 0.562 $\pm$ 0.017\\
+Homology clusters & IMC & RNA-FM & 0.765 $\pm$ 0.025 & 0.623 $\pm$ 0.010 & 0.557 $\pm$ 0.016\\
+Homology clusters & IMC & RiNALMo-giga & 0.757 $\pm$ 0.019 & 0.624 $\pm$ 0.010 & 0.557 $\pm$ 0.016\\
+Homology clusters & IMC & Alignment & 0.650 $\pm$ 0.022 & 0.576 $\pm$ 0.008 & 0.533 $\pm$ 0.010\\
+Homology clusters & IMC & $k$-mer & 0.712 $\pm$ 0.023 & 0.608 $\pm$ 0.009 & 0.543 $\pm$ 0.013\\
+Homology clusters & IMC & Random & 0.598 $\pm$ 0.028 & 0.550 $\pm$ 0.010 & 0.511 $\pm$ 0.008\\
+Homology clusters & -- & Popularity & 0.849 $\pm$ 0.010 & 0.665 $\pm$ 0.011 & 0.537 $\pm$ 0.017\\
+\bottomrule
+\end{longtable}

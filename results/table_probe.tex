@@ -1,0 +1,11 @@
+\begin{table}[t]\centering\small
+\caption{What miRNA representations encode. Spearman $\rho$ of 5-fold cross-validated ridge predictions with miRNA research popularity ($\log$(1+degree)), with popularity after regressing out miRBase covariates (discovery order, conservation, length, availability), and with discovery order and conservation themselves. Covariates alone reach $\rho=0.85$ for popularity.}\label{tab:probe}
+\begin{tabular}{lcccc}\toprule
+Representation & Popularity & Popularity residual & Discovery order & Conservation\\\midrule
+ERNIE-RNA & 0.70 & 0.27 & 0.78 & 0.75\\
+RNA-FM & 0.64 & 0.26 & 0.71 & 0.68\\
+RiNALMo-giga & 0.60 & 0.25 & 0.66 & 0.63\\
+SW alignment & 0.53 & 0.29 & 0.61 & 0.60\\
+$k$-mer & 0.43 & 0.17 & 0.53 & 0.51\\
+Random features & -0.07 & -0.01 & -0.06 & -0.06\\
+\bottomrule\end{tabular}\end{table}

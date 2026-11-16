@@ -1,0 +1,5 @@
+test,seed,n_neg,frac_later_reported_v4
+tcold_degree,2.0,320.0,0.0512
+tcold_uniform,2.0,320.0,0.0069
+twarm_degree,2.0,5986.0,0.1832
+twarm_uniform,2.0,5986.0,0.024

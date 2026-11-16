@@ -1,0 +1,7 @@
+feature,age (log hairpin accession),"conservation (log1p species, identical mature)"
+random,-0.059,-0.062
+kmer,0.525,0.514
+align,0.609,0.603
+rnafm_both,0.712,0.676
+ernierna_both,0.777,0.75
+rinalmo_both,0.664,0.634

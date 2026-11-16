@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/
+data/raw_v34/
+data/emb/
+data/emb_lm/
+results/preds_degree/
+results_original/

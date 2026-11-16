@@ -1,0 +1,8 @@
+feature,rho,rho_sd,rho_with_cov,rho_residual,rho_residual_sd
+covariates only,0.848,,,,
+random,-0.074,0.029,0.738,-0.009,0.009
+kmer,0.427,0.012,0.803,0.166,0.01
+align,0.526,0.004,0.792,0.287,0.008
+rnafm_both,0.639,0.004,0.802,0.261,0.004
+ernierna_both,0.701,0.002,0.804,0.265,0.005
+rinalmo_both,0.598,0.004,0.803,0.25,0.008

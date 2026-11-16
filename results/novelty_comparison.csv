@@ -1,0 +1,3 @@
+test,nn_median,frac_ge_0_8,frac_lt_0_5,seed_in_train,namefam_in_train
+cross-validation (cold-miRNA),0.65,0.343,0.011,0.228,0.367
+prospective (new in HMDD v4.0),0.605,0.068,0.007,0.129,0.07

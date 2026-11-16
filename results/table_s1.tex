@@ -1,0 +1,70 @@
+\begin{longtable}{lllcc}
+\caption{All cross-validated results (AUROC mean $\pm$ s.d.; standard training unless noted).}\label{tab:s1}\\\toprule
+Setting & Model & Representation & Uniform neg. & Pop.-matched neg.\\\midrule\endhead
+random & MLP & Random features & 0.933 $\pm$ 0.004 & 0.663 $\pm$ 0.012\\
+random & MLP & RNA-FM & 0.941 $\pm$ 0.003 & 0.671 $\pm$ 0.008\\
+random & MLP & RNA-FM + FS/GIP & 0.933 $\pm$ 0.004 & 0.666 $\pm$ 0.007\\
+random & MLP & RNA-FM (hairpin) & 0.938 $\pm$ 0.003 & 0.663 $\pm$ 0.009\\
+random & MLP & RNA-FM (mature) & 0.937 $\pm$ 0.004 & 0.663 $\pm$ 0.006\\
+random & MLP & FS + GIP (classical) & 0.929 $\pm$ 0.004 & 0.660 $\pm$ 0.004\\
+random & GNN & Random features & 0.937 $\pm$ 0.004 & 0.639 $\pm$ 0.010\\
+random & GNN & RNA-FM & 0.941 $\pm$ 0.004 & 0.650 $\pm$ 0.008\\
+random & GNN & RNA-FM + FS/GIP & 0.933 $\pm$ 0.004 & 0.642 $\pm$ 0.009\\
+random & GNN & RNA-FM (hairpin) & 0.941 $\pm$ 0.004 & 0.643 $\pm$ 0.009\\
+random & GNN & RNA-FM (mature) & 0.941 $\pm$ 0.005 & 0.647 $\pm$ 0.011\\
+random & GNN & FS + GIP (classical) & 0.929 $\pm$ 0.003 & 0.636 $\pm$ 0.008\\
+random & -- & Popularity only & 0.939 & 0.633\\\midrule
+cold-mirna & MLP & SW alignment & 0.889 $\pm$ 0.012 & 0.672 $\pm$ 0.011\\
+cold-mirna & MLP & ERNIE-RNA & 0.914 $\pm$ 0.011 & 0.675 $\pm$ 0.011\\
+cold-mirna & MLP & ERNIE-RNA + align & 0.914 $\pm$ 0.009 & 0.680 $\pm$ 0.011\\
+cold-mirna & MLP & $k$-mer & 0.884 $\pm$ 0.010 & 0.668 $\pm$ 0.010\\
+cold-mirna & MLP & Random features & 0.790 $\pm$ 0.028 & 0.630 $\pm$ 0.011\\
+cold-mirna & MLP & RiNALMo-giga & 0.901 $\pm$ 0.011 & 0.669 $\pm$ 0.011\\
+cold-mirna & MLP & RNA-FM & 0.907 $\pm$ 0.008 & 0.671 $\pm$ 0.009\\
+cold-mirna & MLP & RNA-FM + align & 0.909 $\pm$ 0.011 & 0.678 $\pm$ 0.009\\
+cold-mirna & MLP & RNA-FM + FS/GIP & 0.727 $\pm$ 0.033 & 0.532 $\pm$ 0.022\\
+cold-mirna & MLP & RNA-FM (hairpin) & 0.891 $\pm$ 0.006 & 0.663 $\pm$ 0.006\\
+cold-mirna & MLP & RNA-FM (mature) & 0.894 $\pm$ 0.012 & 0.671 $\pm$ 0.009\\
+cold-mirna & MLP & FS + GIP (classical) & 0.654 $\pm$ 0.025 & 0.486 $\pm$ 0.012\\
+cold-mirna & GNN & SW alignment & 0.881 $\pm$ 0.010 & 0.668 $\pm$ 0.005\\
+cold-mirna & GNN & ERNIE-RNA & 0.900 $\pm$ 0.009 & 0.672 $\pm$ 0.006\\
+cold-mirna & GNN & $k$-mer & 0.849 $\pm$ 0.006 & 0.659 $\pm$ 0.007\\
+cold-mirna & GNN & Random features & 0.810 $\pm$ 0.029 & 0.651 $\pm$ 0.008\\
+cold-mirna & GNN & RiNALMo-giga & 0.883 $\pm$ 0.013 & 0.669 $\pm$ 0.003\\
+cold-mirna & GNN & RNA-FM & 0.897 $\pm$ 0.014 & 0.671 $\pm$ 0.007\\
+cold-mirna & GNN & RNA-FM + FS/GIP & 0.580 $\pm$ 0.061 & 0.528 $\pm$ 0.030\\
+cold-mirna & GNN & RNA-FM (hairpin) & 0.894 $\pm$ 0.009 & 0.667 $\pm$ 0.008\\
+cold-mirna & GNN & RNA-FM (mature) & 0.854 $\pm$ 0.015 & 0.665 $\pm$ 0.006\\
+cold-mirna & GNN & FS + GIP (classical) & 0.606 $\pm$ 0.071 & 0.560 $\pm$ 0.033\\
+cold-mirna & IMC & SW alignment & 0.751 $\pm$ 0.021 & 0.657 $\pm$ 0.016\\
+cold-mirna & IMC & ERNIE-RNA & 0.802 $\pm$ 0.020 & 0.673 $\pm$ 0.014\\
+cold-mirna & IMC & ERNIE-RNA + align & 0.780 $\pm$ 0.020 & 0.669 $\pm$ 0.017\\
+cold-mirna & IMC & $k$-mer & 0.765 $\pm$ 0.019 & 0.653 $\pm$ 0.013\\
+cold-mirna & IMC & Random features & 0.598 $\pm$ 0.026 & 0.553 $\pm$ 0.013\\
+cold-mirna & IMC & RiNALMo-giga & 0.792 $\pm$ 0.019 & 0.665 $\pm$ 0.012\\
+cold-mirna & IMC & RNA-FM & 0.800 $\pm$ 0.015 & 0.665 $\pm$ 0.009\\
+cold-mirna & IMC & RNA-FM + align & 0.778 $\pm$ 0.018 & 0.666 $\pm$ 0.013\\
+cold-mirna & MLP (debiased) & SW alignment & 0.840 $\pm$ 0.012 & 0.673 $\pm$ 0.016\\
+cold-mirna & MLP (debiased) & ERNIE-RNA & 0.862 $\pm$ 0.011 & 0.675 $\pm$ 0.013\\
+cold-mirna & MLP (debiased) & ERNIE-RNA + align & 0.866 $\pm$ 0.007 & 0.680 $\pm$ 0.014\\
+cold-mirna & MLP (debiased) & $k$-mer & 0.825 $\pm$ 0.011 & 0.653 $\pm$ 0.013\\
+cold-mirna & MLP (debiased) & Random features & 0.735 $\pm$ 0.021 & 0.585 $\pm$ 0.008\\
+cold-mirna & MLP (debiased) & RiNALMo-giga & 0.845 $\pm$ 0.009 & 0.664 $\pm$ 0.013\\
+cold-mirna & MLP (debiased) & RNA-FM & 0.856 $\pm$ 0.012 & 0.670 $\pm$ 0.011\\
+cold-mirna & MLP (debiased) & RNA-FM + align & 0.866 $\pm$ 0.010 & 0.678 $\pm$ 0.012\\
+cold-mirna & MLP (debiased) & FS + GIP (classical) & 0.406 $\pm$ 0.043 & 0.405 $\pm$ 0.011\\
+cold-mirna & -- & Popularity only & 0.856 & 0.672\\\midrule
+cold-disease & MLP & Random features & 0.784 $\pm$ 0.017 & 0.638 $\pm$ 0.012\\
+cold-disease & MLP & RNA-FM & 0.804 $\pm$ 0.012 & 0.646 $\pm$ 0.011\\
+cold-disease & MLP & RNA-FM + FS/GIP & 0.827 $\pm$ 0.012 & 0.657 $\pm$ 0.013\\
+cold-disease & MLP & RNA-FM (hairpin) & 0.806 $\pm$ 0.020 & 0.646 $\pm$ 0.009\\
+cold-disease & MLP & RNA-FM (mature) & 0.772 $\pm$ 0.012 & 0.632 $\pm$ 0.013\\
+cold-disease & MLP & FS + GIP (classical) & 0.821 $\pm$ 0.014 & 0.652 $\pm$ 0.017\\
+cold-disease & GNN & Random features & 0.768 $\pm$ 0.025 & 0.635 $\pm$ 0.021\\
+cold-disease & GNN & RNA-FM & 0.772 $\pm$ 0.042 & 0.632 $\pm$ 0.021\\
+cold-disease & GNN & RNA-FM + FS/GIP & 0.794 $\pm$ 0.040 & 0.639 $\pm$ 0.020\\
+cold-disease & GNN & RNA-FM (hairpin) & 0.753 $\pm$ 0.047 & 0.626 $\pm$ 0.019\\
+cold-disease & GNN & RNA-FM (mature) & 0.763 $\pm$ 0.044 & 0.635 $\pm$ 0.017\\
+cold-disease & GNN & FS + GIP (classical) & 0.802 $\pm$ 0.022 & 0.642 $\pm$ 0.019\\
+cold-disease & -- & Popularity only & 0.846 & 0.668\\\midrule
+\bottomrule\end{longtable}

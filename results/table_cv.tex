@@ -1,0 +1,16 @@
+\begin{table}[t]\centering\small
+\caption{Cold-miRNA five-fold cross-validation (MLP; mean $\pm$ s.d. AUROC over 3 seeds $\times$ 5 folds; AUPR in parentheses). The popularity baseline ranks diseases by their training degree.}\label{tab:cv}
+\resizebox{\linewidth}{!}{\begin{tabular}{lccc}\toprule
+ & Uniform negatives & \multicolumn{2}{c}{Popularity-matched negatives}\\\cmidrule(lr){3-4}
+Representation & standard training & standard training & debiased training\\\midrule
+ERNIE-RNA & 0.914 $\pm$ 0.011 (0.915) & 0.675 $\pm$ 0.011 (0.688) & 0.675 $\pm$ 0.013 (0.692)\\
+RNA-FM & 0.907 $\pm$ 0.008 (0.909) & 0.671 $\pm$ 0.009 (0.683) & 0.670 $\pm$ 0.011 (0.685)\\
+RiNALMo-giga & 0.901 $\pm$ 0.011 (0.903) & 0.669 $\pm$ 0.011 (0.680) & 0.664 $\pm$ 0.013 (0.676)\\
+SW alignment & 0.889 $\pm$ 0.012 (0.894) & 0.672 $\pm$ 0.011 (0.682) & 0.673 $\pm$ 0.016 (0.691)\\
+$k$-mer & 0.884 $\pm$ 0.010 (0.886) & 0.668 $\pm$ 0.010 (0.676) & 0.653 $\pm$ 0.013 (0.663)\\
+ERNIE-RNA + align & 0.914 $\pm$ 0.009 (0.917) & 0.680 $\pm$ 0.011 (0.693) & 0.680 $\pm$ 0.014 (0.702)\\
+RNA-FM + align & 0.909 $\pm$ 0.011 (0.912) & 0.678 $\pm$ 0.009 (0.691) & 0.678 $\pm$ 0.012 (0.698)\\
+\midrule
+Random features & 0.790 $\pm$ 0.028 (0.792) & 0.630 $\pm$ 0.011 (0.639) & 0.585 $\pm$ 0.008 (0.594)\\
+Popularity only & 0.856 $\pm$ 0.010 (0.857) & 0.672 $\pm$ 0.008 (0.686) & 0.672 $\pm$ 0.008 (0.686)\\
+\bottomrule\end{tabular}}\end{table}

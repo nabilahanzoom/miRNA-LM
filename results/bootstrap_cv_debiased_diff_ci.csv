@@ -1,0 +1,15 @@
+neg,a,b,diff,ci_low,ci_high,ci90_low,ci90_high,p_boot,p_wilcoxon,equivalent_0_01,p_holm
+uniform,ernierna_both,align,0.0214,0.0168,0.0264,0.0175,0.0255,0.0,0.0001,False,0.0004
+uniform,rnafm_both,align,0.0153,0.0108,0.02,0.0114,0.0193,0.0,0.0004,False,0.0017
+uniform,rinalmo_both,align,0.0043,-0.0002,0.0089,0.0005,0.0081,0.064,0.073,True,0.073
+uniform,ernierna_both,random,0.1265,0.1164,0.1352,0.1181,0.1336,0.0,0.0001,False,0.0004
+uniform,align,random,0.1051,0.0946,0.114,0.0964,0.1125,0.0,0.0001,False,0.0004
+uniform,ernierna_both,popularity,0.0056,-0.0,0.01,0.0006,0.0093,0.054,0.0015,True,0.0031
+uniform,align,popularity,-0.0159,-0.0231,-0.0101,-0.0221,-0.0109,0.0,0.0004,False,0.0017
+degree,ernierna_both,align,0.002,-0.0019,0.0062,-0.0015,0.0056,0.366,0.3894,True,1.0
+degree,rnafm_both,align,-0.0032,-0.0076,0.0011,-0.0068,0.0,0.104,0.1354,True,0.5415
+degree,rinalmo_both,align,-0.0093,-0.0135,-0.0051,-0.0129,-0.0057,0.0,0.0054,False,0.0269
+degree,ernierna_both,random,0.0898,0.0822,0.0971,0.0835,0.0959,0.0,0.0001,False,0.0004
+degree,align,random,0.0878,0.0802,0.096,0.0813,0.0947,0.0,0.0001,False,0.0004
+degree,ernierna_both,popularity,0.0035,-0.0023,0.0099,-0.0012,0.0085,0.224,0.5614,True,1.0
+degree,align,popularity,0.0015,-0.0046,0.0089,-0.0036,0.0077,0.608,0.8904,True,1.0

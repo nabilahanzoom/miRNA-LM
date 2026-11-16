@@ -1,0 +1,19 @@
+\begin{table}[t]\centering\small
+\caption{Cold-miRNA AUROC with exact degree-preserving test negatives under four partitioning schemes. Each value is the mean over 3 seeds $\times$ 5 folds. Popularity only ranks diseases by training degree; under exact negatives it is close to chance by construction. Bold: best per column. --: not run.}\label{tab:robust}
+\resizebox{\linewidth}{!}{\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{2}{c}{Random miRNA folds} & \multicolumn{2}{c}{Seed families} & \multicolumn{2}{c}{Name families} & \multicolumn{2}{c}{Homology clusters}\\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9}
+Representation & MLP & IMC & MLP & IMC & MLP & IMC & MLP & IMC\\
+\midrule
+ERNIE-RNA & 0.616 & \textbf{0.615} & \textbf{0.605} & \textbf{0.600} & \textbf{0.578} & \textbf{0.573} & \textbf{0.561} & \textbf{0.562}\\
+RNA-FM & 0.611 & 0.604 & 0.597 & 0.592 & 0.573 & 0.567 & 0.560 & 0.557\\
+RiNALMo-giga & 0.602 & 0.603 & -- & 0.592 & -- & 0.567 & -- & 0.557\\
+Alignment & \textbf{0.619} & 0.611 & 0.605 & 0.596 & 0.568 & 0.552 & 0.552 & 0.533\\
+$k$-mer & 0.586 & 0.587 & -- & 0.571 & -- & 0.552 & -- & 0.543\\
+Random features & 0.518 & 0.513 & 0.513 & 0.507 & 0.516 & 0.514 & 0.514 & 0.511\\
+\midrule
+Popularity only & 0.537 &  & 0.536 &  & 0.537 &  & 0.537 & \\
+\bottomrule
+\end{tabular}}
+\end{table}

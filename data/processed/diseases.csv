@@ -1,0 +1,835 @@
+disease,mesh_ui,mesh_map
+Acquired Immunodeficiency Syndrome,D000163,hmdd_mesh
+Acute Brucellosis,D002006,hmdd_mesh
+Acute Cerebral Infarction,D002544,hmdd_mesh
+Acute Cerebral Ischemia,,none
+Acute Coronary Syndrome,D054058,hmdd_mesh
+Acute Erythroid Leukemia,D004915,hmdd_mesh
+Acute Heart Failure,,none
+Acute Ischemic Stroke,D002546,hmdd_mesh
+Acute Kidney Failure,D058186,hmdd_mesh
+Acute Liver Failure,D017114,hmdd_mesh
+Acute Lung Injury,D055371,hmdd_mesh
+Acute Megakaryoblastic Leukemia,D007947,hmdd_mesh
+Acute Myocardial Infarction,D056989,hmdd_mesh
+Acute Pancreatitis,D019283,hmdd_mesh
+Acute Peritonitis,D010538,hmdd_mesh
+Acute Respiratory Distress Syndrome,D012128,hmdd_mesh
+"Adenocarcinoma, Cervical",,none
+"Adenocarcinoma, Colon",D003110,name_match
+"Adenocarcinoma, Endometrial",D018269,hmdd_mesh
+"Adenocarcinoma, Esophageal",,none
+"Adenocarcinoma, Gastric",D013274,hmdd_mesh
+"Adenocarcinoma, Gastric-Esophageal Junction",,none
+"Adenocarcinoma, Lung",D000077192,name_match
+"Adenocarcinoma, Pancreatic Ductal",D021441,hmdd_mesh
+"Adenocarcinoma, Prostate",D011471,hmdd_mesh
+"Adenocarcinoma, Sebaceous",D018266,hmdd_mesh
+Adenosquamous Pancreas Carcinoma,,none
+Adenovirus Infection,D000257,hmdd_mesh
+Adrenal Cortex Neoplasms,D000306,hmdd_mesh
+African Swine Fever,D000357,hmdd_mesh
+Age-Related Macular Degeneration,D008268,hmdd_mesh
+Alcohol Use Disorder,D000437,hmdd_mesh
+Alcoholic Cardiomyopathy,D002310,hmdd_mesh
+Alcoholic Hepatitis,D006519,hmdd_mesh
+Allergic Asthma,,none
+Allergic Contact Dermatitis,D017449,hmdd_mesh
+Allergic Rhinitis,D065631,hmdd_mesh
+"Allergic Rhinitis,Perennial",D012221,hmdd_mesh
+Allergy,D006967,hmdd_mesh
+Alopecia,D000505,hmdd_mesh
+Alveolar Rhabdomyosarcoma,D018232,hmdd_mesh
+Alzheimer Disease,D000544,hmdd_mesh
+Amyotrophic Lateral Sclerosis,D000690,hmdd_mesh
+Anaplastic Astrocytoma,D001254,hmdd_mesh
+Androgenetic Alopecia,D000505,hmdd_mesh
+Anemia,D000740,hmdd_mesh
+Aneurysm,D000783,hmdd_mesh
+Aneurysmal Subarachnoid Hemorrhage,D013345,hmdd_mesh
+Angiosarcoma,D006394,hmdd_mesh
+Ankylosing Spondylitis,D013167,hmdd_mesh
+Antiphospholipid Syndrome,D016736,hmdd_mesh
+Anus Neoplasm,D001005,hmdd_mesh
+Anxiety,D001007,hmdd_mesh
+Anxiety Disorders,D001008,hmdd_mesh
+Aortic Aneurysm,D001014,hmdd_mesh
+"Aortic Aneurysm, Abdominal",D017544,hmdd_mesh
+"Aortic Aneurysm, Thoracic",D017545,hmdd_mesh
+Aortic Insufficiency,D001022,hmdd_mesh
+Aortic Stenosis,D001024,hmdd_mesh
+Aortic Valve Disease,D000082862,name_match
+Aplastic Anemia,D000741,hmdd_mesh
+Arrhythmia,D001145,hmdd_mesh
+Arteriosclerosis Obliterans,D001162,hmdd_mesh
+Arteriovenous Malformation,D001165,hmdd_mesh
+Arthritis,D001168,hmdd_mesh
+Asthenozoospermia,D053627,hmdd_mesh
+Asthma,D001249,hmdd_mesh
+Astrocytoma,D001254,hmdd_mesh
+Atherosclerosis,D050197,hmdd_mesh
+Atopic Dermatitis,D003876,hmdd_mesh
+Atrial Fibrillation,D001281,hmdd_mesh
+Atrioventricular Septal Defect,D004694,hmdd_mesh
+Atrophic Gastritis,D005757,hmdd_mesh
+Atypical Teratoid Tumor,,none
+Autism Spectrum Disorder,D000067877,hmdd_mesh
+Autistic Disorder,D001321,hmdd_mesh
+Autoimmune Diseases [unspecific],D001327,hmdd_mesh
+Autoimmune Hepatitis,D019693,hmdd_mesh
+Autoimmune Lymphoproliferative Syndrome,D056735,hmdd_mesh
+Autoimmune Thyroiditis,D013967,hmdd_mesh
+Azoospermia,D053713,hmdd_mesh
+B-cell Childhood Acute Lymphoblastic Leukemia,,none
+Balkan Nephropathy,D001449,hmdd_mesh
+Barrett Esophagus,D001471,hmdd_mesh
+Becker Muscular Dystrophy,D020388,name_match
+Behcet Disease,D001528,hmdd_mesh
+Biliary Atresia,D001656,hmdd_mesh
+Biliary Tract Neoplasms,D001661,hmdd_mesh
+Bipolar Disorder,D001714,hmdd_mesh
+Bladder Neoplasms,D001749,hmdd_mesh
+Bladder Outlet Obstruction,D001748,hmdd_mesh
+Blindness,D001766,name_match
+Blood Coagulation Disorders,D001778,hmdd_mesh
+Bone Cancer,D001859,hmdd_mesh
+Bone Disease [unspecific],D001847,hmdd_mesh
+Borjeson-Forssman-Lehmann Syndrome,,none
+Borna Disease,D001890,hmdd_mesh
+Brain Disease [unspecific],D001927,hmdd_mesh
+Brain Neoplasms,D001932,hmdd_mesh
+Breast Adenocarcinoma,,none
+Breast Ductal Carcinoma,D044584,hmdd_mesh
+Breast Malignant Phyllodes Tumor,D003557,hmdd_mesh
+Breast Neoplasms,D001943,hmdd_mesh
+Bronchiolitis Obliterans Syndrome,D001989,hmdd_mesh
+Bronchopulmonary Dysplasia,D001997,hmdd_mesh
+Burns,D002056,hmdd_mesh
+"Carcinoma, Adenoid Cystic",D003528,hmdd_mesh
+"Carcinoma, Adrenocortical",D018268,hmdd_mesh
+"Carcinoma, Basal Cell",D002280,hmdd_mesh
+"Carcinoma, Biliary Tract",D001650,hmdd_mesh
+"Carcinoma, Bladder",D001749,hmdd_mesh
+"Carcinoma, Breast",D001943,hmdd_mesh
+"Carcinoma, Breast, Triple Negative",D064726,hmdd_mesh
+"Carcinoma, Cervical",D002583,hmdd_mesh
+"Carcinoma, Colon",,none
+"Carcinoma, Ehrlich Tumor",D002286,hmdd_mesh
+"Carcinoma, Embryonal",D018236,hmdd_mesh
+"Carcinoma, Endometrial",D016889,hmdd_mesh
+"Carcinoma, Endometrioid Endometrial",D018269,hmdd_mesh
+"Carcinoma, Esophageal",D004938,hmdd_mesh
+"Carcinoma, Gallbladder",D005706,hmdd_mesh
+"Carcinoma, Gastric",D013274,hmdd_mesh
+"Carcinoma, Gastric, Signet Ring Cell",D018279,hmdd_mesh
+"Carcinoma, Gastrooesophageal",,none
+"Carcinoma, Gingival",,none
+"Carcinoma, Hepatocellular",D006528,hmdd_mesh
+"Carcinoma, Hepatocellular, HBV-Related",,none
+"Carcinoma, Hepatocellular, HCV-Related",,none
+"Carcinoma, Laryngeal",D007822,hmdd_mesh
+"Carcinoma, Lung",D008175,hmdd_mesh
+"Carcinoma, Lung, Non-Small-Cell",D002289,hmdd_mesh
+"Carcinoma, Lung, Small-Cell",D055752,hmdd_mesh
+"Carcinoma, Merkel Cell",D015266,hmdd_mesh
+"Carcinoma, Mucoepidermoid",D018277,hmdd_mesh
+"Carcinoma, Nasopharyngeal",D000077274,name_match
+"Carcinoma, Neuroendocrine",D018278,hmdd_mesh
+"Carcinoma, Oral",,none
+"Carcinoma, Ovarian",,none
+"Carcinoma, Ovarian, Clear Cell",,none
+"Carcinoma, Ovarian, Serous",,none
+"Carcinoma, Pancreatic",D010190,name_match
+"Carcinoma, Pancreatic Ductal",D021441,hmdd_mesh
+"Carcinoma, Periampullary",,none
+"Carcinoma, Prostate",D011471,hmdd_mesh
+"Carcinoma, Rectal",D012004,hmdd_mesh
+"Carcinoma, Renal Cell",D002292,hmdd_mesh
+"Carcinoma, Renal Cell, Chromophobe",,none
+"Carcinoma, Renal Cell, Clear-Cell",,none
+"Carcinoma, Salivary Adenoid Cystic",D003528,hmdd_mesh
+"Carcinoma, Skin",D018280,hmdd_mesh
+"Carcinoma, Supraglottic",D059525,hmdd_mesh
+"Carcinoma, Thyroid",D013964,hmdd_mesh
+"Carcinoma, Thyroid, Anaplastic",D065646,hmdd_mesh
+"Carcinoma, Thyroid, Follicular",,none
+"Carcinoma, Thyroid, Medullary",,none
+"Carcinoma, Thyroid, Papillary",,none
+"Carcinoma, Tounge",,none
+"Carcinoma, Urothelial",,none
+"Carcinoma, Urothelial, Upper Tract",,none
+"Carcinoma, Vulvar",D014846,hmdd_mesh
+Cardiac Allograft Vasculopathy,D014652,hmdd_mesh
+Cardiac Fibrosis,,none
+Cardiac Myocyte Injury,,none
+Cardiac Myxoma,D009232,hmdd_mesh
+Cardio-Renal Syndrome,D059347,hmdd_mesh
+Cardiomegaly,D006332,hmdd_mesh
+Cardiometabolic Disorders,,none
+Cardiomyopathy,D009202,hmdd_mesh
+"Cardiomyopathy, Dilated",D002311,hmdd_mesh
+"Cardiomyopathy, Hypertrophic",D002312,hmdd_mesh
+"Cardiomyopathy, Ischemic",,none
+Cardiotoxicity,D066126,hmdd_mesh
+Cardiovascular Diseases [unspecific],D002318,hmdd_mesh
+Carotid Artery Diseases,D002340,hmdd_mesh
+Carotid Atherosclerosis,D002340,hmdd_mesh
+Cartilage Disease [unspecific],D002357,hmdd_mesh
+Cataract,D002386,hmdd_mesh
+Celiac Disease,D002446,hmdd_mesh
+Central Nervous System Embryonal Tumor,D009373,hmdd_mesh
+Cerebellum Cancer,D002528,hmdd_mesh
+Cerebral Aneurysm,D002532,hmdd_mesh
+Cerebral Cavernous Malformations,D020786,name_match
+Cerebral Ischemia,D002545,hmdd_mesh
+Cerebral Malaria,D016779,hmdd_mesh
+Cerebrovascular Disease,D002561,hmdd_mesh
+Cervical Neoplasms,D002583,hmdd_mesh
+Cervicitis,D002575,hmdd_mesh
+Cervix Endometrial Stromal Tumor,,none
+Chagas Disease,D014355,hmdd_mesh
+Charcot-Marie-Tooth Disease Type 1A,D002607,hmdd_mesh
+Chikungunya Virus Infection,D065632,hmdd_mesh
+"Child Development Disorders, Pervasive",D002659,hmdd_mesh
+Childhood Leukemia,,none
+Childhood Obesity,D063766,hmdd_mesh
+Chlamydial Infection,D002690,hmdd_mesh
+Cholangiocarcinoma,D018281,hmdd_mesh
+Cholestasis,D002779,hmdd_mesh
+Cholesteatoma,D002781,hmdd_mesh
+Chondrosarcoma,D002813,hmdd_mesh
+Chordoma,D002817,hmdd_mesh
+Chorioamnionitis,D002821,hmdd_mesh
+Choriocarcinoma,D002822,hmdd_mesh
+Chromosome 15q13.3 Microdeletion Syndrome,,none
+"Chromosome 22Q11.2 Deletion Syndrome, Distal",,none
+Chromosome 5q Deletion Syndrome,,none
+Chronic Alcohol-Induced Alveolar Macrophage Dysfunction,,none
+Chronic Brucellosis,D002006,hmdd_mesh
+Chronic Fatigue Syndrome,D015673,hmdd_mesh
+Chronic Heart Failure,D006333,hmdd_mesh
+Chronic Hepatitis,D006521,hmdd_mesh
+Chronic Hepatitis B,D019694,hmdd_mesh
+Chronic Hepatitis C,D019698,hmdd_mesh
+Chronic Inflammation,,none
+Chronic Inflammatory Pain,,none
+Chronic Kidney Disease,D007676,hmdd_mesh
+Chronic Obstructive Pulmonary Disease,D029424,hmdd_mesh
+Chronic Pain,D059350,hmdd_mesh
+Chronic Pancreatitis,D050500,hmdd_mesh
+Cleidocranial Dysplasia,D002973,hmdd_mesh
+Cocaine Abuse,D019970,hmdd_mesh
+Colitis,D003092,hmdd_mesh
+"Colitis, Ulcerative",D003093,hmdd_mesh
+Coloboma,D003103,hmdd_mesh
+Colon Adenoma,,none
+Colon Neoplasms,D003110,hmdd_mesh
+Colorectal Adenocarcinoma,,none
+Colorectal Adenoma,,none
+Colorectal Carcinoma,D015179,hmdd_mesh
+Complex Regional Pain Syndrome,D020918,hmdd_mesh
+Cone Dystrophy,D000077765,name_match
+Congenital Deafness,,none
+Congenital Diaphragmatic Hernia,D006548,hmdd_mesh
+Congenital Heart Diseases,D006330,hmdd_mesh
+Congenital Hypothyroidism,D003409,hmdd_mesh
+Congenital Microtia,D065817,hmdd_mesh
+Congenital Myasthenic Syndrome,D020294,hmdd_mesh
+Cor Pulmonale,D011660,hmdd_mesh
+Cornea Squamous Cell Carcinoma,,none
+Corneal Neovascularization,D016510,hmdd_mesh
+Coronary Artery Disease,D003324,hmdd_mesh
+Coronary Atherosclerosis,D003324,hmdd_mesh
+Coronary Restenosis,D023903,hmdd_mesh
+Coronavirus Infections,D018352,hmdd_mesh
+Costello Syndrome,D056685,hmdd_mesh
+Coxsackievirus Infection,D006223,hmdd_mesh
+Creutzfeldt-Jakob Disease,D007562,hmdd_mesh
+Crohn Colitis,D003424,hmdd_mesh
+Crohn Disease,D003424,hmdd_mesh
+Cryptosporidium infection,D003457,hmdd_mesh
+Cutaneous Melanoma,,none
+Cystic Fibrosis,D003550,hmdd_mesh
+Cytomegalovirus Retinitis,D017726,hmdd_mesh
+"Cytotoxicity Tests, Immunologic",D003601,hmdd_mesh
+Dementia,D003704,hmdd_mesh
+Demyelinating Diseases,D003711,hmdd_mesh
+Dengue Shock Syndrome,D019595,name_match
+Dengue Virus Infection,D003715,hmdd_mesh
+Dental Enamel Hypoplasia,D003744,hmdd_mesh
+Depression Disorder,D003866,hmdd_mesh
+Dermatomyositis,D003882,hmdd_mesh
+Diabetes Mellitus,D003920,hmdd_mesh
+"Diabetes Mellitus, Gestational",D016640,hmdd_mesh
+"Diabetes Mellitus, Type 1",D003922,hmdd_mesh
+"Diabetes Mellitus, Type 2",D003924,hmdd_mesh
+Diabetic Cardiomyopathies,D058065,hmdd_mesh
+Diabetic Cataract,,none
+Diabetic Encephalopathy,,none
+Diabetic Foot,D017719,hmdd_mesh
+Diabetic Nephropathy,D003928,hmdd_mesh
+Diabetic Peripheral Neuropathy,,none
+Diabetic Polyneuropathy,D003929,hmdd_mesh
+Diabetic Retinopathy,D003930,hmdd_mesh
+Diabetic Vasculopathy,D003925,hmdd_mesh
+Digeorge Syndrome,D004062,hmdd_mesh
+Digestive System Neoplasms,D004067,hmdd_mesh
+Disease of Metabolism,D008659,hmdd_mesh
+Distal Myopathy,D049310,hmdd_mesh
+Down Syndrome,D004314,hmdd_mesh
+Dyspepsia,D004415,hmdd_mesh
+Early-Stage Breast Carcinoma,D001943,hmdd_mesh
+Early-Stage Cervical Squamous Cell Carcinoma,,none
+Early-Stage Colon Adenocarcinoma,,none
+Early-Stage Colon Carcinoma,,none
+Early-Stage Gastric Carcinoma,,none
+Early-Stage Lung Adenocarcinoma,,none
+Early-Stage Lung Carcinoma,,none
+Early-Stage Non-Small-Cell Lung Carcinoma,D002289,hmdd_mesh
+Early-Stage Small-Cell Lung Carcinoma,D055752,hmdd_mesh
+Ebola Hemorrhagic Fever,D019142,hmdd_mesh
+Eclampsia,D004461,hmdd_mesh
+Ectopic Pregnancy,D011271,hmdd_mesh
+Eczema Herpeticum,D007617,hmdd_mesh
+Embryonal Testis Carcinoma,,none
+Emphysema,D004646,hmdd_mesh
+Encephalitis,D004660,hmdd_mesh
+Encephalomyelitis,D004679,hmdd_mesh
+Endocrine Gland Neoplasms,D004701,hmdd_mesh
+Endometrial Neoplasms,D016889,hmdd_mesh
+Endometrial Stromal Sarcoma,D018203,hmdd_mesh
+Endometriosis,D004715,hmdd_mesh
+Endomyocardial Fibrosis,D004719,hmdd_mesh
+Endotoxemia,D019446,hmdd_mesh
+Enteropathy,D007410,hmdd_mesh
+Enterovirus Infection,D004769,hmdd_mesh
+Eosinophilic Esophagitis,D057765,hmdd_mesh
+Ependymoma,D004806,hmdd_mesh
+Epilepsy,D004827,hmdd_mesh
+Epithelioid Sarcoma,D012509,hmdd_mesh
+Epstein-Barr Virus Infection,D020031,hmdd_mesh
+Esophageal Neoplasms,D004938,hmdd_mesh
+Esophagitis,D004941,hmdd_mesh
+Essential Hypertension,D000075222,name_match
+Essential Thrombocythemia,D013920,hmdd_mesh
+Ewing Sarcoma,D012512,hmdd_mesh
+Familial Mediterranean Fever,D010505,hmdd_mesh
+Fanconi Anemia,D005199,hmdd_mesh
+Fatty Liver [unspecific],D005234,hmdd_mesh
+"Fatty Liver, Alcoholic",D005235,hmdd_mesh
+"Fatty Liver, Non-Alcoholic",D065626,hmdd_mesh
+Feingold Syndrome,,none
+Fetal Alcohol Spectrum Disorder,D063647,hmdd_mesh
+Fever,D005334,hmdd_mesh
+"Fibromatosis, Aggressive",D018222,hmdd_mesh
+Fibromyalgia,D005356,hmdd_mesh
+Fibrosarcoma,D005354,hmdd_mesh
+Focal Epithelial Hyperplasia,D017573,hmdd_mesh
+Focal Segmental Glomerulosclerosis,D005923,hmdd_mesh
+Follicular Atresia,D005496,hmdd_mesh
+Foot-and-Mouth Disease,D005536,hmdd_mesh
+Fragile X Syndrome,D005600,hmdd_mesh
+Friedreich Ataxia,D005621,hmdd_mesh
+Frontotemporal Lobar Degeneration,D057174,hmdd_mesh
+Fungal Keratitis,D007634,hmdd_mesh
+Gallstones,D042882,hmdd_mesh
+Gastric Cardia Adenocarcinoma,,none
+Gastric Neoplasms,D013274,hmdd_mesh
+Gastroduodenal Ulcer,D010437,name_match
+Gastrointestinal Neoplasms,D005770,hmdd_mesh
+Gastrointestinal Stromal Tumor,D046152,hmdd_mesh
+Gaucher Disease,D005776,hmdd_mesh
+Generalized Epilepsy with Febrile Seizures Plus,,none
+Germ Cell And Embryonal Neoplasms,D009373,hmdd_mesh
+Germ Cell Tumor,D009373,hmdd_mesh
+Gerstmann-Straussler-Scheinker Syndrome,D016098,hmdd_mesh
+Gestational Trophoblastic Disease,D031901,hmdd_mesh
+Giant Cell Tumor of Bone,D018212,hmdd_mesh
+Glaucoma,D005901,hmdd_mesh
+Glioblastoma,D005909,hmdd_mesh
+Glioblastoma Mesenchymal Subtype,,none
+Glioma,D005910,hmdd_mesh
+Gliosis,D005911,hmdd_mesh
+Glomerulonephritis,D005921,hmdd_mesh
+Gout,D006073,hmdd_mesh
+Graft-Versus-Host Disease,D006086,hmdd_mesh
+Granular Corneal Dystrophy,D003317,hmdd_mesh
+Granulosa Cell Tumor,D006106,hmdd_mesh
+Graves Disease,D006111,hmdd_mesh
+Graves Ophthalmopathy,D049970,hmdd_mesh
+Growth Disorders,D006130,hmdd_mesh
+Guillain-Barre Syndrome,D020275,hmdd_mesh
+HELLP Syndrome,D017359,hmdd_mesh
+HIV-Associated Lipodystrophy,D039682,hmdd_mesh
+Habitual Abortion,D000026,hmdd_mesh
+Hailey-Hailey Disease,D016506,hmdd_mesh
+"Hand, Foot And Mouth Disease",D006232,hmdd_mesh
+Hantavirus Infection,D018778,hmdd_mesh
+Head And Neck Adenoid Cystic Carcinoma,,none
+Head And Neck Neoplasms,D006258,hmdd_mesh
+Hearing Disorders,D006311,hmdd_mesh
+Hearing Loss,D034381,hmdd_mesh
+Heart Diseases [unspecific],D006333,hmdd_mesh
+Heart Failure,D006331,hmdd_mesh
+Heart Transplant Rejection,,none
+Heart Valve Disease,D006349,hmdd_mesh
+Helicobacter pylori Infection,D016480,hmdd_mesh
+Hemangioma,D006391,hmdd_mesh
+Hemangiosarcoma,D006394,hmdd_mesh
+Hematologic Neoplasms,D019337,hmdd_mesh
+Hemoglobin Diseases,D006450,hmdd_mesh
+Hemoglobinopathy,D006453,hmdd_mesh
+Hemophagocytic Lymphohistiocytosis,D051359,hmdd_mesh
+Hemophilia A,D006467,hmdd_mesh
+Hepatic Ischemia-Reperfusion Injury,,none
+Hepatitis B Virus Infection,D006509,hmdd_mesh
+Hepatitis C Virus Infection,D006526,hmdd_mesh
+Hepatitis E Virus Infection,D016751,hmdd_mesh
+Hepatitis [unspecific],D006521,hmdd_mesh
+Hepatoblastoma,D018197,hmdd_mesh
+Hereditary Breast Carcinoma,D001943,hmdd_mesh
+Hereditary Hemorrhagic Telangiectasia,D013683,hmdd_mesh
+Hirschsprung Disease,D006627,hmdd_mesh
+Holt-Oram Syndrome,,none
+Human Cytomegalovirus Infection,D003586,hmdd_mesh
+Human Immunodeficiency Virus Infection,D015658,hmdd_mesh
+Human Papilloma Virus Infection,D027383,hmdd_mesh
+Huntington Disease,D006816,hmdd_mesh
+Hyperactivity Disorder,D001289,hmdd_mesh
+Hypercholesterolaemia,D006937,hmdd_mesh
+Hyperglycemia,D006943,hmdd_mesh
+Hyperhomocysteinemia,D020138,hmdd_mesh
+Hyperlipidemia,D006949,hmdd_mesh
+Hyperlipoproteinemia Type III,D006952,hmdd_mesh
+Hypertension,D006973,hmdd_mesh
+Hypertrophic Scar,D017439,hmdd_mesh
+Hypertrophy,D006984,hmdd_mesh
+Hyperuricemia,D033461,hmdd_mesh
+Hypogonadism,D007006,hmdd_mesh
+Hypogonadotropic Hypogonadism,D007006,name_match
+Hypohidrotic Ectodermal Dysplasia,D053358,hmdd_mesh
+Hypoxia,D000860,hmdd_mesh
+Hypoxic-Ischemic Encephalopathy,D020925,hmdd_mesh
+Idiopathic Asthenospermia,,none
+Idiopathic Pulmonary Fibrosis,D054990,hmdd_mesh
+Idiopathic Pulmonary Hypertension,D065627,hmdd_mesh
+Idiopathic Short Stature,,none
+IgA Nephropathy,D005922,hmdd_mesh
+Ileus,D045823,hmdd_mesh
+Immune System Disease [unspecific],D007154,hmdd_mesh
+Immune Thrombocytopenic Purpura,D016553,hmdd_mesh
+Infection [unspecific],D007239,hmdd_mesh
+Infectious Bursal Disease Virus,D007243,hmdd_mesh
+Infertility,D007246,hmdd_mesh
+Inflammation,D007249,hmdd_mesh
+Inflammatory Bowel Diseases,D015212,hmdd_mesh
+Influenza,D007251,hmdd_mesh
+Inherited Hemoglobin Disease,,none
+Inner Ear Inflammation,,none
+Intellectual Disability,D008607,hmdd_mesh
+Intermittent Claudication,D007383,hmdd_mesh
+Interstitial Cystitis,D018856,hmdd_mesh
+Interstitial Lung Disease,D017563,hmdd_mesh
+Intervertebral Disc Degeneration,D055959,hmdd_mesh
+Intestinal Barrier Dysfunction,,none
+Intestinal Schistosomiasis,D012554,hmdd_mesh
+Intracerebral Hemorrhage,D002543,hmdd_mesh
+Intracranial Aneurysm,D002532,hmdd_mesh
+Intraductal Papillary Mucinous Neoplasms,,none
+Intrahepatic Cholangiocarcinoma,D018281,hmdd_mesh
+Invasive Bladder Transitional Cell Carcinoma,,none
+Iron Metabolism Disease,D019189,hmdd_mesh
+Irritable Bowel Syndrome,D043183,hmdd_mesh
+Ischemia,D007511,hmdd_mesh
+Ischemia-Reperfusion Injury,D015427,hmdd_mesh
+Ischemic Diseases [unspecific],D007511,hmdd_mesh
+Ischemic Heart Disease,D017202,hmdd_mesh
+Japanese Encephalitis Virus Infection,D018349,hmdd_mesh
+Juvenile Rheumatoid Arthritis,D001171,hmdd_mesh
+Kaposi Sarcoma,D012514,hmdd_mesh
+Kawasaki Syndrome,D009080,hmdd_mesh
+Keloid,D007627,hmdd_mesh
+Keratitis,D007634,hmdd_mesh
+Kideny Transplant Rejection,D006084,hmdd_mesh
+Kidney Diseases [unspecific],D007674,hmdd_mesh
+Kidney Injury,D058186,hmdd_mesh
+Kidney Neoplasms,D007680,hmdd_mesh
+Kidney Osteogenic Sarcoma,,none
+Knee Osteoarthritis,D020370,hmdd_mesh
+Lacrimal Adenoid Cystic Carcinoma,,none
+Laryngeal Neoplasms,D007822,hmdd_mesh
+Learned Helplessness,D006380,hmdd_mesh
+Legg-Calve-Perthes Disease,D007873,hmdd_mesh
+Leiomyoma,D007889,hmdd_mesh
+Leiomyosarcoma,D007890,hmdd_mesh
+Leishmaniasis,D007896,hmdd_mesh
+Lepromatous Leprosy,D015440,hmdd_mesh
+Leprosy,D007918,hmdd_mesh
+Lesch-Nyhan Syndrome,D007926,hmdd_mesh
+Leukemia,D007938,hmdd_mesh
+"Leukemia, Acute",,none
+"Leukemia, B-Cell",D015448,hmdd_mesh
+"Leukemia, Biphenotypic, Acute",D015456,hmdd_mesh
+"Leukemia, Lymphoblastic",D007945,hmdd_mesh
+"Leukemia, Lymphoblastic, Acute",D054198,hmdd_mesh
+"Leukemia, Lymphoblastic, Acute, B-Cell",,none
+"Leukemia, Lymphoblastic, Acute, Childhood",D054198,hmdd_mesh
+"Leukemia, Lymphoblastic, Acute, T-Cell",D054218,name_match
+"Leukemia, Lymphocytic, Chronic, B-Cell",D015451,hmdd_mesh
+"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",D015464,hmdd_mesh
+"Leukemia, Myeloid",D007951,hmdd_mesh
+"Leukemia, Myeloid, Acute",D015470,hmdd_mesh
+"Leukemia, Myeloid, Acute, Pediatric",,none
+"Leukemia, Myeloid, Chronic",D015464,hmdd_mesh
+"Leukemia, Myeloid, Chronic-Phase",D015466,hmdd_mesh
+"Leukemia, Promyelocytic, Acute",D015473,hmdd_mesh
+"Leukemia, T-Cell",D015458,hmdd_mesh
+"Leukemia-Lymphoma, Adult T-Cell",D015459,hmdd_mesh
+"Leukemia-Lymphoma, Precursor B-Cell Lymphoblastic",D015452,hmdd_mesh
+"Leukemia-Lymphoma, Precursor T-Cell Lymphoblastic",D054218,hmdd_mesh
+Li-Fraumeni Syndrome,D016864,hmdd_mesh
+Lichen Planus,D008010,hmdd_mesh
+Light-Induced Retinal Injury,,none
+Lipid Metabolism Disorder,D008052,hmdd_mesh
+Liposarcoma,D008080,hmdd_mesh
+Listeriosis,D008088,hmdd_mesh
+Liver Cirrhosis,D008103,hmdd_mesh
+Liver Diseases [unspecific],D008107,hmdd_mesh
+"Liver Diseases, Alcoholic",D008108,hmdd_mesh
+Liver Failure,D017093,hmdd_mesh
+Liver Fibrosis,D008103,hmdd_mesh
+Liver Injury,D056486,hmdd_mesh
+Liver Neoplasms,D008113,hmdd_mesh
+Liver Transplant Rejection,,none
+Lofgren Syndrome,,none
+Long QT Syndrome,D008133,hmdd_mesh
+Lung Disease [unspecific],D008171,hmdd_mesh
+Lung Fibrosis,D011658,hmdd_mesh
+Lung Injury [unspecific],D055370,hmdd_mesh
+Lung Neoplasms,D008175,hmdd_mesh
+Lupus Nephritis,D008181,hmdd_mesh
+Lupus Vulgaris,D008177,hmdd_mesh
+Lyme Disease,D008193,hmdd_mesh
+Lymphedema,D008209,hmdd_mesh
+Lymphocytic Choriomeningitis,D008216,hmdd_mesh
+Lymphoma,D008223,hmdd_mesh
+"Lymphoma, B-Cell",D016393,hmdd_mesh
+"Lymphoma, Burkitt",D002051,hmdd_mesh
+"Lymphoma, Extranodal NK-T-Cell",D054391,hmdd_mesh
+"Lymphoma, Follicular",D008224,hmdd_mesh
+"Lymphoma, Hodgkin",D006689,hmdd_mesh
+"Lymphoma, Large B-Cell",D016403,hmdd_mesh
+"Lymphoma, Large B-Cell, Diffuse",D016403,hmdd_mesh
+"Lymphoma, Large-Cell, Anaplastic",D017728,hmdd_mesh
+"Lymphoma, Mantle-Cell",D020522,hmdd_mesh
+"Lymphoma, Non-Hodgkin",D008228,hmdd_mesh
+"Lymphoma, Primary Effusion",D054685,hmdd_mesh
+"Lymphoma, T-Cell",D016399,hmdd_mesh
+"Lymphoma, T-Cell, Cutaneous",D016410,hmdd_mesh
+Lymphoproliferative Disorders,D008232,hmdd_mesh
+Lynch Syndrome,D003123,hmdd_mesh
+MALT Lymphoma,D018442,name_match
+MELAS Syndrome,D017241,hmdd_mesh
+Machado-Joseph Disease,D017827,hmdd_mesh
+Macroglobulinemia,D008258,hmdd_mesh
+Macular Degeneration,D008268,hmdd_mesh
+Major Depressive Disorder,D003865,hmdd_mesh
+Male Infertility,D007248,hmdd_mesh
+Malignant Neoplasms [unspecific],D009369,hmdd_mesh
+Malignant Peripheral Nerve Sheath Tumor,D009442,hmdd_mesh
+Mandibular Prognathism,,none
+Marek Disease,D008380,hmdd_mesh
+Mast Cell Neoplasm,,none
+Mastitis,D008413,hmdd_mesh
+Medulloblastoma,D008527,hmdd_mesh
+Medulloepithelioma,D018242,hmdd_mesh
+Melanoma,D008545,hmdd_mesh
+Melasma,D008548,hmdd_mesh
+Meningioma,D008579,hmdd_mesh
+Meningitis,D008581,hmdd_mesh
+"Meningitis, Pneumococcal",D008586,hmdd_mesh
+Mesial Temporal Lobe Epilepsy,D004833,hmdd_mesh
+Mesothelioma,D008654,name_match
+Metabolic Syndrome,D024821,hmdd_mesh
+Methylmalonic Acidemia,,none
+Microvascular Disease,,none
+Mild Cognitive Impairment,D060825,hmdd_mesh
+Mitochondrial Metabolism Disease,D028361,hmdd_mesh
+Mitral Valve Disease,,none
+Monocytic Leukemia,,none
+Moyamoya Disease,D009072,hmdd_mesh
+Mucosulfatidosis,D052517,hmdd_mesh
+Multiple Endocrine Neoplasia Type 1,D018761,hmdd_mesh
+Multiple Myeloma,D009101,hmdd_mesh
+Multiple Sclerosis,D009103,hmdd_mesh
+Multiple System Atrophy,D019578,hmdd_mesh
+Muscle Atrophy,D009133,hmdd_mesh
+Muscle Diseases [unspecific],D009135,hmdd_mesh
+Muscular Dystrophy,D009136,hmdd_mesh
+"Muscular Dystrophy, Duchenne",D020388,hmdd_mesh
+"Muscular Dystrophy, Facioscapulohumeral",D020391,hmdd_mesh
+Musculoskeletal Abnormalities [unspecific],D009139,hmdd_mesh
+Myasthenia Gravis,D009157,hmdd_mesh
+Mycobacterium Avium Complex Disease,D015270,hmdd_mesh
+Mycobacterium tuberculosis Infection,D014376,hmdd_mesh
+Mycosis Fungoides,D009182,hmdd_mesh
+Myelodysplastic Syndromes,D009190,hmdd_mesh
+Myelofibrosis,D055728,hmdd_mesh
+Myeloma,D009101,hmdd_mesh
+Myeloproliferative Neoplasms,,none
+Myocardial Infarction,D009203,hmdd_mesh
+Myocardial Ischemic-Reperfusion Injury,D015428,hmdd_mesh
+Myopia,D009216,hmdd_mesh
+Myositis,D009220,hmdd_mesh
+Myositis Ossificans,D009221,hmdd_mesh
+Myotonic Dystrophy Type 1,D009223,hmdd_mesh
+Myotonic Muscular Dystrophy,D009223,hmdd_mesh
+Myxoid Liposarcoma,D018208,hmdd_mesh
+NUT Midline Carcinoma,,none
+Narcolepsy,D009290,hmdd_mesh
+Nasal Cavity Inverting Papilloma,,none
+Nasopharyngeal Neoplasms,D009303,hmdd_mesh
+Necrotizing Enterocolitis,D020345,hmdd_mesh
+Neoplasms [unspecific],D009369,hmdd_mesh
+"Neovascularization, Pathologic",D009389,hmdd_mesh
+Nephrolithiasis,D053040,hmdd_mesh
+Nephrosclerosis,D009400,hmdd_mesh
+Nephrotic Syndrome,D009404,hmdd_mesh
+Nervous System Diseases [unspecific],D009422,hmdd_mesh
+"Neuralgia, Postherpetic",D051474,hmdd_mesh
+Neurilemmoma,D009442,hmdd_mesh
+Neuroblastoma,D009447,hmdd_mesh
+Neurodegenerative Diseases [unspecific],D019636,hmdd_mesh
+Neuroendocrine Tumors,D018358,hmdd_mesh
+Neuroepithelial Tumors,D018302,hmdd_mesh
+Neurofibromatosis type 2,D016518,name_match
+Neuroinflammation,D000090862,name_match
+Neuroma,D009463,hmdd_mesh
+Neuronal Apoptosis-Related Diseases,,none
+Neuropathic Pain,D009437,hmdd_mesh
+Neuropsychiatric Disorders [unspecific],,none
+Neutropenia,D009503,hmdd_mesh
+Nevus,D009506,hmdd_mesh
+"Niemann-Pick Disease, Type C",D052556,hmdd_mesh
+Non-Neoplastic Diseases,,none
+Non-Sensory Diseases,,none
+Non-Syndromic Orofacial Clefts,,none
+Non-Traumatic Osteonecrosis,D010020,hmdd_mesh
+Obesity,D009765,hmdd_mesh
+Obstructive Sleep Apnea,D020181,hmdd_mesh
+Odontogenic Tumors,D009808,hmdd_mesh
+Oligodendroglioma,D009837,hmdd_mesh
+Oral Leukoplakia,D007972,hmdd_mesh
+Oral Lichen Planus,D017676,hmdd_mesh
+Oral Neoplasms,D009062,hmdd_mesh
+Oral Submucous Fibrosis,D009914,hmdd_mesh
+Ossification of Posterior Longitudinal Ligament,D017887,hmdd_mesh
+Osteoarthritis,D010003,hmdd_mesh
+Osteogenesis Imperfecta,D010013,hmdd_mesh
+Osteomyelitis,D010019,hmdd_mesh
+Osteonecrosis,D010020,hmdd_mesh
+Osteopetrosis,D010022,hmdd_mesh
+Osteoporosis,D010024,hmdd_mesh
+"Osteoporosis, Postmenopausal",D015663,hmdd_mesh
+Osteosarcoma,D012516,hmdd_mesh
+Otitis Media,D010033,hmdd_mesh
+Ovarian Disease,D010049,hmdd_mesh
+Ovarian Germ Cell Cancer,,none
+Ovarian Neoplasms,D010051,hmdd_mesh
+Ovary Mixed Epithelial Carcinoma,,none
+PTEN Hamartoma Tumor Tyndrome,,none
+Pain,D010146,hmdd_mesh
+Pancreatic Adenocarcinoma,,none
+Pancreatic Diseases,D010182,hmdd_mesh
+Pancreatic Endocrine Carcinoma,D018273,hmdd_mesh
+Pancreatic Intraductal Papillary Mucinous Neoplasms,,none
+Pancreatic Neoplasms,D010190,hmdd_mesh
+Pancreatic Serous Cystic Neoplasm,,none
+Panic Disorder,D016584,hmdd_mesh
+Parathyroid Carcinoma,D010282,hmdd_mesh
+Parkinson Disease,D010300,hmdd_mesh
+Patau Syndrome,D000073839,hmdd_mesh
+Pediatric Ependymoma,,none
+Pediatric Glioma,,none
+Pediatric Osteosarcoma,,none
+Pelvic Inflammatory Disease,D000292,hmdd_mesh
+Pelvic Organ Prolapse,D056887,hmdd_mesh
+Pemphigus,D010392,hmdd_mesh
+Penis Carcinoma,,none
+Periodontal Diseases,D010510,hmdd_mesh
+Periodontitis,D010518,hmdd_mesh
+Peripheral Nerve Injury,D059348,hmdd_mesh
+Peripheral Nervous System Diseases,D010523,hmdd_mesh
+Peripheral Vascular Disease,D016491,hmdd_mesh
+Peritoneal Dialysis Failure,,none
+Peritoneal Fibrosis,D056627,hmdd_mesh
+Peritoneal Neoplasms,D010534,hmdd_mesh
+Perlman Syndrome,,none
+Pheochromocytoma,D010673,hmdd_mesh
+Pineal Gland Cancer,D010871,hmdd_mesh
+Pituitary Adenoma,D010911,hmdd_mesh
+Pituitary Neoplasms,D010911,hmdd_mesh
+Plasmodium vivax Infection,D016780,hmdd_mesh
+Pleural Mesothelioma,D054363,hmdd_mesh
+Pneumonia,D011014,hmdd_mesh
+Polyangiitis,,none
+Polycystic Kidney Disease,D007690,hmdd_mesh
+Polycystic Ovarian Syndrome,D011085,hmdd_mesh
+Polycythemia Vera,D011087,hmdd_mesh
+Porcine Reproductive and Respiratory Syndrome Virus Infection,,none
+Porphyromonas Gingivalis,D016966,hmdd_mesh
+Post-Traumatic Stress Disorder,D013313,hmdd_mesh
+Posterior Capsule Opacification,D058442,hmdd_mesh
+Prediabetes,D011236,hmdd_mesh
+Preeclampsia,D011225,hmdd_mesh
+Pregnancy Complications [unspecific],D011248,hmdd_mesh
+Premature Ovarian Failure,D016649,hmdd_mesh
+Preterm Labor,D007752,hmdd_mesh
+Primary Aldosteronism,D006929,hmdd_mesh
+Primary Biliary Cirrhosis,D008105,hmdd_mesh
+Primary Immunodeficiency Disease,D007153,hmdd_mesh
+Prion Diseases,D017096,hmdd_mesh
+Progressive Supranuclear Palsy,D013494,hmdd_mesh
+Prolactinoma,D015175,hmdd_mesh
+Proliferative Diabetic Retinopathy,,none
+Proliferative Glomerulonephritis,,none
+Proliferative Vitreoretinal Disease,,none
+Prostate Neoplasms,D011471,hmdd_mesh
+Psoriasis,D011565,hmdd_mesh
+Psoriatic Arthritis,D015535,hmdd_mesh
+Psychiatric Disorders,D001523,hmdd_mesh
+Psychotic Disorders,D011618,hmdd_mesh
+Pterygium,D011625,hmdd_mesh
+Pulmonary Embolism,D011655,hmdd_mesh
+Pulmonary Hypertension,D006976,hmdd_mesh
+Pulmonary Sarcoidosis,D017565,hmdd_mesh
+Rapidly Progressive Glomerulonephritis,,none
+Rectal Neoplasms,D012004,hmdd_mesh
+Rectum Adenocarcinoma,,none
+Recurrent Spontaneous Abortion,D000022,hmdd_mesh
+Renal Fibrosis,,none
+Reproductive System Disease,,none
+Respiratory Syncytial Virus Pneumonia,D018357,hmdd_mesh
+Respiratory System Disease,D012140,name_match
+Retinal Degeneration,D012162,hmdd_mesh
+Retinal Neovascularization,D015861,hmdd_mesh
+Retinal Vascular Disease,,none
+Retinitis Pigmentosa,D012174,hmdd_mesh
+Retinoblastoma,D012175,hmdd_mesh
+Rhabdoid Cancer,D018335,hmdd_mesh
+Rhabdomyosarcoma,D012208,hmdd_mesh
+Rheumatic Heart Diseases,D012214,hmdd_mesh
+Rheumatic Myocarditis,,none
+Rheumatoid Arthritis,D001172,hmdd_mesh
+Rhinosinusitis,D000096825,name_match
+Salivary Gland Disease,D012466,name_match
+Salivary Gland Neoplasms,D012468,hmdd_mesh
+Salmonellosis,D012480,hmdd_mesh
+Sarcoma [unspecific],D012509,hmdd_mesh
+Sarcomatoid Mesothelioma,,none
+Schizophrenia,D012559,hmdd_mesh
+"Scleroderma, Localized",D012594,hmdd_mesh
+"Scleroderma, Systemic",D012595,hmdd_mesh
+Sebaceous Carcinoma,,none
+Seizures,D012640,hmdd_mesh
+Selective IgE Deficiency Disease,,none
+Seminoma,D018239,hmdd_mesh
+Sensorineural Hearing Loss,D006313,hmdd_mesh
+Sepsis,D018805,hmdd_mesh
+Sertoli Cell-Only Syndrome,D054331,hmdd_mesh
+Severe Acute Respiratory Syndrome Virus Infection,D045169,hmdd_mesh
+Sezary Disease,D012751,hmdd_mesh
+"Shock, Hemorrhagic",D012771,hmdd_mesh
+"Shock, Septic",D012772,hmdd_mesh
+Short Bowel Syndrome,D012778,hmdd_mesh
+Sickle Cell Anemia,D000755,hmdd_mesh
+Sickle Cell Disease,D000755,hmdd_mesh
+Silicosis,D012829,hmdd_mesh
+Sjogren Syndrome,D012859,hmdd_mesh
+Skin Disease [unspecific],D012871,hmdd_mesh
+Skin Hemangioma,,none
+Skin Injury,,none
+Skin Neoplasms,D012878,hmdd_mesh
+"Small Cell Carcinoma, Esophageal",,none
+Soft Tissue Sarcoma,D012509,hmdd_mesh
+Somatotropinoma,D049912,hmdd_mesh
+Spinal Chordoma,D002817,hmdd_mesh
+Spinal Cord Injuries,D013119,hmdd_mesh
+Spinal Muscular Atrophy,D009134,hmdd_mesh
+Spinal Stenosis,D013130,hmdd_mesh
+Spondylarthritis,D025241,hmdd_mesh
+Squamous Cell Carcinoma,D002294,hmdd_mesh
+"Squamous Cell Carcinoma, Cerevial",,none
+"Squamous Cell Carcinoma, Esophageal",,none
+"Squamous Cell Carcinoma, Head and Neck",D000077195,name_match
+"Squamous Cell Carcinoma, Laryngeal or Hypopharyngeal",,none
+"Squamous Cell Carcinoma, Lung",,none
+"Squamous Cell Carcinoma, Maxillary Sinus",,none
+"Squamous Cell Carcinoma, Oral",,none
+"Squamous Cell Carcinoma, Sinonasal",,none
+"Squamous Cell Carcinoma, Skin or Unspecific",,none
+"Squamous Cell Carcinoma, Tongue",,none
+Status Epilepticus,D013226,hmdd_mesh
+Stroke,D020521,hmdd_mesh
+"Stroke, Hemorrhagic",D000083302,name_match
+"Stroke, Ischemic",D000083242,name_match
+Synovial Sarcoma,D013584,hmdd_mesh
+Systemic Lupus Erythematosus,D008180,hmdd_mesh
+"Systemic Lupus Erythematosus, With Pericarditis",,none
+Systemic Mastocytosis,D034721,hmdd_mesh
+Testicular Germ Cell Tumor,,none
+Testicular Neoplasms,D013736,hmdd_mesh
+Tetralogy Of Fallot,D013771,hmdd_mesh
+Thrombocytopenia,D013921,hmdd_mesh
+Thrombocytosis,D013922,hmdd_mesh
+Thrombosis,D013927,hmdd_mesh
+Thymoma,D013945,hmdd_mesh
+Thyroid Adenomas,D013964,hmdd_mesh
+Thyroid Lymphoma,,none
+Thyroid Neoplasms,D013964,hmdd_mesh
+Thyroid-Associated Ophthalmopathy,D049970,hmdd_mesh
+Tibial Meniscus Injuries,D000070600,hmdd_mesh
+Tongue Neoplasms,D014062,hmdd_mesh
+Tooth Agenesis,D000848,hmdd_mesh
+Tourette Syndrome,D005879,hmdd_mesh
+Toxic Encephalopathy,D020258,hmdd_mesh
+Toxic Epidermal Necrolysis,D013206,hmdd_mesh
+Toxoplasma gondii Infection,D014123,hmdd_mesh
+Transitional Cell Carcinoma,D002295,hmdd_mesh
+Traumatic Brain Injury,D000070642,hmdd_mesh
+Tuberculosis,D014376,hmdd_mesh
+"Tuberculosis, Pulmonary",D014397,hmdd_mesh
+Unstable Angina,D000789,hmdd_mesh
+Uremic Neuropathy,,none
+Urinary Bladder Cancer,D001749,hmdd_mesh
+Urinary System Cancer,,none
+Uterine Cancer,D014594,hmdd_mesh
+Uterine Carcinosarcoma,,none
+Uterine Corpus Choriocarcinoma,,none
+Uterine Corpus Endometrial Carcinoma,,none
+Uterine Corpus Myxoid Leiomyosarcoma,,none
+Uterine Corpus Serous Adenocarcinoma,,none
+Uterine Leiomyoma,D007889,hmdd_mesh
+Uterine Leiomyosarcoma,,none
+Uveal Melanoma,D000098943,name_match
+Uveitis,D014605,hmdd_mesh
+Varicella,D002644,hmdd_mesh
+Varicocele,D014646,hmdd_mesh
+Vascular Disease [unspecific],D000783,hmdd_mesh
+Vascular Hypertrophy,,none
+Vascular Injuries,D057772,hmdd_mesh
+Vasculitis,D014657,hmdd_mesh
+Vasomotor Rhinitis,D012223,hmdd_mesh
+Viral Infectious Disease,D001102,hmdd_mesh
+Viral Myocarditis,D009205,hmdd_mesh
+Vitiligo,D014820,hmdd_mesh
+Vogt-Koyanagi-Harada Disease,D014607,hmdd_mesh
+Vulvar Squamous Cell Carcinoma,,none
+Vulvar Squamous Tumor,,none
+Waldenstrom Macroglobulinemia,D008258,hmdd_mesh
+White Spot Syndrome Virus Infection,D046848,hmdd_mesh
+Wilms Tumor,D009396,hmdd_mesh
+Wound Healing,D014945,hmdd_mesh
+Wound Inflammation,,none
+Wounds and Injuries [unspecific],D014947,hmdd_mesh
+hepatocellular carcinoma,D006528,name_match

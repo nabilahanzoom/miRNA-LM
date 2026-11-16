@@ -1,0 +1,30 @@
+\begin{table}[h]\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Robustness of the evaluation. (a) Cold-miRNA test negatives (HMDD v3.0, MLP, debiased training) that are reported as associations in HMDD v4.0, and AUROC before and after removing them. (b) Relatedness of test miRNAs to training miRNAs in cross-validation and in the prospective test. (c) Prospective AUROC (popularity-matched negatives, MLP, debiased training, mean of 10 seeds) by nearest-homolog identity and by seed or name family present among training miRNAs.}\label{tab:s5}
+\textbf{(a)}\\[2pt]\begin{tabular}{lcccc}\toprule Representation & Negatives & Later reported & AUROC & AUROC (removed)\\\midrule
+Alignment & Pop.-matched & 13.7\% & 0.673 & 0.689\\
+ERNIE-RNA & Pop.-matched & 13.7\% & 0.675 & 0.693\\
+$k$-mer & Pop.-matched & 13.7\% & 0.653 & 0.670\\
+Random & Pop.-matched & 13.7\% & 0.585 & 0.598\\
+RiNALMo-giga & Pop.-matched & 13.7\% & 0.664 & 0.681\\
+RNA-FM & Pop.-matched & 13.7\% & 0.670 & 0.687\\
+Alignment & Uniform & 1.8\% & 0.840 & 0.844\\
+ERNIE-RNA & Uniform & 1.8\% & 0.862 & 0.865\\
+$k$-mer & Uniform & 1.8\% & 0.825 & 0.829\\
+Random & Uniform & 1.8\% & 0.735 & 0.738\\
+RiNALMo-giga & Uniform & 1.8\% & 0.845 & 0.848\\
+RNA-FM & Uniform & 1.8\% & 0.856 & 0.859\\
+\bottomrule\end{tabular}\\[8pt]
+\textbf{(b)}\\[2pt]\begin{tabular}{lccccc}\toprule Test miRNAs & Median NN id. & NN $\ge0.8$ & NN $<0.5$ & Seed in train & Name fam.\ in train\\\midrule
+Cross-validation & 0.650 & 34.3\% & 1.1\% & 22.8\% & 36.7\%\\
+Prospective (v4.0) & 0.605 & 6.8\% & 0.7\% & 12.9\% & 7.0\%\\
+\bottomrule\end{tabular}\\[8pt]
+\textbf{(c)}\\[2pt]\begin{tabular}{llcccccc}\toprule Stratum & Level & miRNAs & Positives & ERNIE-RNA & Alignment & Random & Popularity\\\midrule
+NN identity & $<0.5$ & 3 & 4 & 0.688 & 0.706 & 0.537 & 0.375\\
+NN identity & 0.5--0.8 & 410 & 1008 & 0.581 & 0.554 & 0.574 & 0.616\\
+NN identity & $\ge0.8$ & 30 & 64 & 0.550 & 0.514 & 0.548 & 0.569\\
+Seed in training & no & 386 & 935 & 0.577 & 0.548 & 0.569 & 0.607\\
+Seed in training & yes & 57 & 141 & 0.600 & 0.580 & 0.593 & 0.648\\
+Name family in training & no & 412 & 1007 & 0.580 & 0.553 & 0.572 & 0.614\\
+Name family in training & yes & 31 & 69 & 0.569 & 0.548 & 0.567 & 0.585\\
+\bottomrule\end{tabular}
+\end{table}

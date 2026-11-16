@@ -1,0 +1,16 @@
+neg,feature,auc,ci_low,ci_high,n_folds
+uniform,ernierna_both,0.8413,0.8364,0.8461,15
+uniform,rnafm_both,0.8346,0.8303,0.8392,15
+uniform,align,0.7933,0.7874,0.7992,15
+uniform,random,0.7325,0.7247,0.7413,15
+uniform,popularity,0.8486,0.8444,0.8541,15
+degree,ernierna_both,0.6281,0.6244,0.6324,15
+degree,rnafm_both,0.6264,0.6223,0.6314,15
+degree,align,0.6117,0.6072,0.6169,15
+degree,random,0.5805,0.576,0.5849,15
+degree,popularity,0.6649,0.6614,0.6689,15
+exact,ernierna_both,0.5612,0.554,0.5666,15
+exact,rnafm_both,0.5603,0.5524,0.566,15
+exact,align,0.5519,0.5447,0.5579,15
+exact,random,0.5143,0.5067,0.5206,15
+exact,popularity,0.5371,0.526,0.5455,15
